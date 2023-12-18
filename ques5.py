@@ -15,3 +15,7 @@ class Solution:
                 num -= value
         
         return roman_numeral
+if __name__=="__main__":
+    pointer=Solution()
+    x=pointer.intToRoman(456)
+    print(x)

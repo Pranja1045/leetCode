@@ -12,3 +12,7 @@ class Solution:
                 ans+=value
             prev_value=value
         return ans
+if __name__=="__main__":
+    pointer=Solution()
+    x=pointer.romanToInt("XVIII")
+    print(x)

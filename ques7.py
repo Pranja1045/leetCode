@@ -1,6 +1,6 @@
+from itertools import product
 class Solution:
-    from itertools import product
-    def letterCombinations(self, digits: str) -> List[str]:
+    def letterCombinations(self, digits: str) -> list[str]:
         dataSet={"2":["a","b","c"],
         "3":["d","e","f"],
         "4":["g","h","i"],
@@ -14,3 +14,7 @@ class Solution:
         chars=[dataSet[digit] for digit in digits]
         ans=["".join(comb) for comb in product(*chars)]
         return ans
+if __name__=="__main__":
+    pointer=Solution()
+    x=pointer.letterCombinations("234")
+    print(x)

@@ -12,6 +12,9 @@ class Solution:
             ans=max(ans,end-start+1)
         return ans
 
-
+if __name__=="__main__":
+    pointer=Solution()
+    x=pointer.lengthOfLongestSubstring("abracadabra")
+    print(x)
 
         

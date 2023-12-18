@@ -17,3 +17,7 @@ class Solution:
                     return nums1 or nums2
             else:
                 return (nums1[-1]+nums2[0])/2
+if __name__=="__main__":
+    pointer=Solution()
+    x=pointer.findMedianSortedArrays([2,3,4,5,6],[4,5,6,7])
+    print(x)

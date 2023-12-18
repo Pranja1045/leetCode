@@ -18,3 +18,7 @@ class Solution:
                     temp+=word1[j:]
                 temp+=word2[j]
         return temp
+if __name__=="__main__":
+    pointer=Solution()
+    x=pointer.mergeAlternately("hello","motto")
+    print(x)
