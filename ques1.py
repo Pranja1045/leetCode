@@ -19,6 +19,7 @@ class Solution:
                 temp+=word2[j]
         return temp
 if __name__=="__main__":
+    #hellow testing....
     pointer=Solution()
     x=pointer.mergeAlternately("hello","motto")
     print(x)
